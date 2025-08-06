@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #f8f9fa;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.quote-of-day, .library {
+  padding: 2rem;
+  text-align: center;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.quotes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.quote-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
